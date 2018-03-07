@@ -1,169 +1,506 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="Font-Awesome-4.7/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/templatemo-style.css">
-    
-    <title>Catalyst HTML CSS Template</title>
-</head>
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>All About Sauvage</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
 
-<body>
-    
-    <div class="container">
-        <section class="col-md-12 content" id="home">
-           <div class="col-lg-6 col-md-6 content-item tm-black-translucent-bg tm-logo-box">
-              <img src="images/pics.jpg" alt="Image 1" class="profile-img">
-              <h2 class="text-uppercase">Hao Song</h2>
-              <div>
-                    <h3 class="mobmid">My skills </h3>
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
-                    <p>Java</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-                            <span class="sr-only">65% Complete (success)</span>
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header">
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="#body">
+                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Asentus Logo">
+                            </a>
                         </div>
-                    </div><!--skill end-->
+                        <!-- End Logo -->
+                    </div>
 
-                    <p>C#</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-                            <span class="sr-only">85% Complete</span>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">首页</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">关于我</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">项目经验</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">工作经历</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">联系我</a></li>
+                            </ul>
                         </div>
-                    </div><!--skill end-->
-
-                    <p>Front-End</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                            <span class="sr-only">60% Complete (warning)</span>
-                        </div>
-                    </div><!--skill end-->
-
-                    <p>Algorithm</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
-                            <span class="sr-only">30% Complete (danger)</span>
-                        </div>
-                    </div><!--skill end-->
+                    </div>
+                    <!-- End Navbar Collapse -->
                 </div>
-               
-           </div>
-           <div class="col-lg-6 col-md-6 content-item content-item-1 background tm-white-translucent-bg">
-               <h2 class="main-title text-center dark-blue-text">Project Experience</h2>
-               <p style="text-align: center;">华建数创审图平台</p>
-                    <!--<p>主导数据库设计，参与系统架构。<p>
-                    <p>负责核心逻辑与页面的开发。</p>-->
-               <p>项目经历1</p>
-               <p>项目经历2</p>
-               <p>项目经历3</p>
-               <p>项目经历3</p>
-               <p>项目经历3</p>
-               <p>项目经历3</p>
-               <p>项目经历3</p>
-               <p>项目经历3</p>
-               <button type="button" class="btn btn-big pull-right tm-btn-primary">Read More</button>
-           </div>
-       </section>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
 
-       <section class="col-md-12 content padding tm-equal-col-container" id="services">
-        <div class="col-lg-6 col-md-6 col-sm-12 content-item tm-black-translucent-bg tm-services-section-padding">
-          <h2 class="main-title text-center dark-blue-text">工作经历</h2>
-           <p>工作经历1</p>
-           <p>工作经历2</p>
-       </div>
-       <div class="col-lg-6 col-md-6 col-sm-12 content-item tm-black-translucent-bg tm-services-section-padding">
-          <h2 class="main-title text-center dark-blue-text">关于我</h2>
-
-       </div>
-
-      </section>
-<!--
-      <section class="col-md-12 content padding tm-float-section tm-section-3">
-
-      <div class="col-lg-6 col-md-6 content-item tm-black-translucent-bg"></div>
-      <div class="col-lg-6 col-md-6 content-item tm-white-translucent-bg"></div>
-      
-      <div class="tm-float-section-header">
-        <h2 class="text-center tm-white-text tm-section-3-header">.03 Morbi vehicula suscipit</h2>  
-      </div><div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
-
-      <div class="tm-float-section-body tm-white-bg">
-        <div class="col-lg-12">
-          <div class="col-md-4 col-lg-4">
-            <i class="fa fa-commenting-o fa-4x tm-fa-icon"></i>
-            <p>Curabitur ornare pulvinar sapien, accumsan malesuada mauris ultricies non. Sed id tempor arcu. Pellentesque tortor sapien, molestie at purus vitae, blandit pretium dolor.</p>
-          </div>
-          <div class="col-md-4 col-lg-4">
-            <i class="fa fa-code fa-4x tm-fa-icon"></i>
-            <p>Curabitur ornare pulvinar sapien, accumsan malesuada mauris ultricies non. Sed id tempor arcu. Pellentesque tortor sapien, molestie at purus vitae, blandit pretium dolor.</p>
-          </div>
-          <div class="col-md-4 col-lg-4">
-            <i class="fa fa-inbox fa-4x tm-fa-icon"></i>
-            <p>Curabitur ornare pulvinar sapien, accumsan malesuada mauris ultricies non. Sed id tempor arcu. Pellentesque tortor sapien, molestie at purus vitae, blandit pretium dolor.</p>
-          </div>
+        <!--========== SLIDER ==========-->
+        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/02.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="promo-block-divider">
+                            <h1 class="promo-block-title">宋浩 <br/> Sauvage</h1>
+                            <p class="promo-block-text">.Net/Java Developer &amp; Front-end Developer</p>
+                        </div>
+                        <ul class="list-inline">
+                            <li><a href="#" class="social-icons"><i class="icon-social-facebook"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-twitter"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-dribbble"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-behance"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
         </div>
-      </div>
-        
-      </section>-->
+        <!--========== SLIDER ==========-->
 
-   <section class="col-md-12 content" id="contact">
-       <div class="col-lg-6 col-md-6 content-item tm-content-box tm-black-translucent-bg">
-           <h2 class="contact-title">联系方式</h2>
-           <p>自我介绍</p>
-           <p>
-             Tel: 18362970761<br>
-             Wechat: sargeles<br>
-             Email: 330657387@qq.com
-           </p>
-       </div>
-       <div class="col-lg-6 col-md-6 content-item tm-content-box tm-white-translucent-bg">
-           
-           <form action="#" method="post" name="contact-form" class="contact-form">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="form-group">
-                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required>
-                </div>    
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">关于我</h2>
+                            <p>软件工程师/舞者/梦想是作家</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="margin-b-60">
+                            <p>我是宋浩, 2016年毕业于南京邮电大学, 本科学士, 目前是一名主攻后端开发， 兼攻前端开发的软件工程师； 效力过两家公司， 熟悉电商/CMS, 熟悉数据库设计， 有系统架构经验。</p>
+                            <p>目前在职， 有换工作的打算。</p>
+                        </div>
+
+                        <!-- Progress Box -->
+                        <div class="progress-box">
+                            <h5>.Net <span class="color-heading pull-right">85%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Java <span class="color-heading pull-right">76%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="76"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Front-End <span class="color-heading pull-right">61%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="61"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Python <span class="color-heading pull-right">52%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="52"></div>
+                            </div>
+                        </div>
+                        <!-- End Progress Box -->
+                    </div>
+                </div>
+                <!--// end row -->
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="form-group contact-field">
-                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" required>
-                </div>    
+        </div>
+        <!-- End About -->
+
+        <!-- Experience -->
+        <div id="experience">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container content-lg">
+                    <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">我的积累</h2>
+                                <p>编程语言并不能定义一个软件工程师.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <div class="row row-space-2 margin-b-4">
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service" data-height="height">
+                                        <div class="service-element">
+                                            <i class="service-icon icon-chemistry"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>Java</h3>
+                                            <p class="margin-b-5">自己重写过一个简易版本的jvm</p>
+                                        </div>
+                                        <a href="#" class="content-wrapper-link"></a>    
+                                    </div>
+                                </div>
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                        <div class="service-element">
+                                            <i class="service-icon color-white icon-screen-tablet"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3 class="color-white">Net</h3>
+                                            <p class="color-white margin-b-5">对NopCommerce和Umbraco了如指掌; 有一套自己的代码库</p>
+                                        </div>
+                                        <a href="#" class="content-wrapper-link"></a>    
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service" data-height="height">
+                                        <div class="service-element">
+                                            <i class="service-icon icon-badge"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>前端</h3>
+                                            <p class="margin-b-5">如你所见</p>
+                                        </div>
+                                        <a href="#" class="content-wrapper-link"></a>    
+                                    </div>
+                                </div>
+                            </div>
+                            <!--// end row -->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="form-group contact-field">
-                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message" required></textarea>
-                </div>    
+        </div>
+        <!-- End Experience -->
+		<div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >手机网站模板</a></div>
+        <!-- Work -->
+        <div id="work">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">工作成果</h2>
+                            <p>我渴望更有价值的工作.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <!-- Masonry Grid -->
+                        <div class="masonry-grid row row-space-2">
+                            <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/800x400/01.jpg" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">隐藏</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">华建数创审图平台</h3>
+                                                <span>数据库设计 & 架构设计 & 核心模块开发</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>该项目是个流程极其复杂的项目，建筑模型和设计图纸的上传，完整性审核，图模审核等阶段均涉及到三种机构，整个系统是一个可反复循环部分流程的工作流。</p>
+                                                        <p>在项目的前期，我主要负责主导数据库的设计，并参与系统的整体架构。在项目中后期，我主要负责核心模块的前后台开发和维护。   </p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">设计,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">代码,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">档案</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p class="margin-b-5"><strong>项目经理:</strong> Conver</p>
+                                                        <p class="margin-b-5"><strong>设计:</strong> Wifi</p>
+                                                        <p class="margin-b-5"><strong>开发:</strong> ...</p>
+                                                        <p class="margin-b-5"><strong>客户:</strong> 华建</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/397x400/01.jpg" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">隐藏</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">华建数创审图平台</h3>
+                                                <span>数据库设计 & 架构设计 & 核心模块开发</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>该项目是个流程极其复杂的项目，建筑模型和设计图纸的上传，完整性审核，图模审核等阶段均涉及到三种机构，整个系统是一个可反复循环部分流程的工作流。</p>
+                                                        <p>在项目的前期，我主要负责主导数据库的设计，并参与系统的整体架构。在项目中后期，我主要负责核心模块的前后台开发和维护。   </p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">设计,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">代码,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">档案</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p class="margin-b-5"><strong>项目经理:</strong> Conver</p>
+                                                        <p class="margin-b-5"><strong>设计:</strong> Wifi</p>
+                                                        <p class="margin-b-5"><strong>开发:</strong> ...</p>
+                                                        <p class="margin-b-5"><strong>客户:</strong> 华建</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/397x300/01.jpg" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">隐藏</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">华建数创审图平台</h3>
+                                                <span>数据库设计 & 架构设计 & 核心模块开发</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>该项目是个流程极其复杂的项目，建筑模型和设计图纸的上传，完整性审核，图模审核等阶段均涉及到三种机构，整个系统是一个可反复循环部分流程的工作流。</p>
+                                                        <p>在项目的前期，我主要负责主导数据库的设计，并参与系统的整体架构。在项目中后期，我主要负责核心模块的前后台开发和维护。   </p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">设计,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">代码,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">档案</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p class="margin-b-5"><strong>项目经理:</strong> Conver</p>
+                                                        <p class="margin-b-5"><strong>设计:</strong> Wifi</p>
+                                                        <p class="margin-b-5"><strong>开发:</strong> ...</p>
+                                                        <p class="margin-b-5"><strong>客户:</strong> 华建</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/397x300/02.jpg" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">隐藏</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">华建数创审图平台</h3>
+                                                <span>数据库设计 & 架构设计 & 核心模块开发</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>该项目是个流程极其复杂的项目，建筑模型和设计图纸的上传，完整性审核，图模审核等阶段均涉及到三种机构，整个系统是一个可反复循环部分流程的工作流。</p>
+                                                        <p>在项目的前期，我主要负责主导数据库的设计，并参与系统的整体架构。在项目中后期，我主要负责核心模块的前后台开发和维护。   </p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">设计,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">代码,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">档案</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p class="margin-b-5"><strong>项目经理:</strong> Conver</p>
+                                                        <p class="margin-b-5"><strong>设计:</strong> Wifi</p>
+                                                        <p class="margin-b-5"><strong>开发:</strong> ...</p>
+                                                        <p class="margin-b-5"><strong>客户:</strong> 华建</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/397x300/03.jpg" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">隐藏</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">华建数创审图平台</h3>
+                                                <span>数据库设计 & 架构设计 & 核心模块开发</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>该项目是个流程极其复杂的项目，建筑模型和设计图纸的上传，完整性审核，图模审核等阶段均涉及到三种机构，整个系统是一个可反复循环部分流程的工作流。</p>
+                                                        <p>在项目的前期，我主要负责主导数据库的设计，并参与系统的整体架构。在项目中后期，我主要负责核心模块的前后台开发和维护。   </p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">设计,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">代码,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">档案</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p class="margin-b-5"><strong>项目经理:</strong> Conver</p>
+                                                        <p class="margin-b-5"><strong>设计:</strong> Wifi</p>
+                                                        <p class="margin-b-5"><strong>开发:</strong> ...</p>
+                                                        <p class="margin-b-5"><strong>客户:</strong> 华建</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                        </div>
+                        <!-- End Masonry Grid -->
+                    </div>
+                </div>
+                <!--// end row -->
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="form-group margin-b-0">
-                    <button type="submit" id="form-submit" class="btn pull-right btn-contact tm-btn-primary">Submit</button>
-                </div>    
+        </div>
+        <!-- End Work -->
+            
+        <!-- Contact -->
+        <div id="contact">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg">
+                    <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">联系方式</h2>
+                                <p>Hire me.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <div class="row">
+                                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                    <h5>地点</h5>
+                                    <a href="#">黄浦区 上海</a>
+                                </div>
+                                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                    <h5>电话</h5>
+                                    <a href="#">18362970761</a>
+                                </div>
+                                <div class="col-md-3 col-xs-6">
+                                    <h5>邮箱</h5>
+                                    <a href="mailto:#">330657387@qq.com</a>
+                                </div>
+                                <div class="col-md-3 col-xs-6">
+                                    <h5>微信</h5>
+                                    <a href="#">sargeles</a>
+                                    <!--<img style="width: 64px; height: auto;" src="img/qrcode.png" alt="扫我吧！">-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
             </div>
-        </form>
-        <!--</div> -->
-        <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
+        </div>
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
 
-    </div>
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <img class="footer-logo" src="img/logo-dark.png" alt="Aircv Logo">
+                    </div>
+                    <div class="col-xs-6 text-right sm-text-left">
+                        <p class="margin-b-0">As you can see.</p>
+                        <p class="margin-b-0">This is all about me.</p>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </footer>
+        <!--========== END FOOTER ==========-->
 
-</section>
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
 
-</div>
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
-<div class="text-center footer">
-	<div class="container">
-		Sauvage | 宋浩
-    </div>
-</div>
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
 
-<script>
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
 
-// Write current year in copyright text.
-  document.getElementsByClassName("tm-current-year").value = new Date().getFullYear();
-
-</script>
-</body>
+    </body>
+    <!-- END BODY -->
 </html>
