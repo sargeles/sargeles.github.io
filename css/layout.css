@@ -323,6 +323,7 @@ fieldset[disabled] .btn-theme {
   font-size: 70px;
   color: #fff;
   line-height: 1;
+  text-align: right;
 }
 
 @media (max-width: 480px) {
@@ -334,6 +335,7 @@ fieldset[disabled] .btn-theme {
 .promo-block .promo-block-text {
   font-size: 25px;
   color: #fff;
+  text-align: right;
 }
 
 .promo-block .promo-block-divider {
@@ -1039,6 +1041,15 @@ fieldset[disabled] .btn-theme {
   clear: both;
 }
 
+.container .titlebox{
+  float: right;
+}
+
+.container .list-inline{
+  text-align: right;
+}
+
+
 /*--------------------------------------------------
     [Container Small]
 ----------------------------------------------------*/
@@ -1056,6 +1067,14 @@ fieldset[disabled] .btn-theme {
 
 .container-sm:after {
   clear: both;
+}
+
+.container .titlebox{
+  float: right;
+}
+
+.container .list-inline{
+  text-align: right;
 }
 
 /* Media Queries below 768px */

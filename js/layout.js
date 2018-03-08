@@ -127,6 +127,14 @@ var Layout = function () {
             $(this).find('.work-popup-overlay').addClass('work-popup-overlay-show');
         });
 
+        overlay.on('click', function(e) {
+            e.stopPropagation();
+            if($(this).hasClass('work-popup-overlay-show')){
+                $(this).removeClass('work-popup-overlay-show');
+            }
+            // overlay.removeClass('work-popup-overlay-show');
+        });
+
         close.on('click', function(e) {
             e.stopPropagation();
             overlay.removeClass('work-popup-overlay-show');
