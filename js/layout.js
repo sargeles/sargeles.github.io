@@ -175,4 +175,13 @@ var Layout = function () {
 
 $(document).ready(function() {
     Layout.init();
+
+    $("#qrimgtrigger").click(function() {
+        $("#qrimg").fadeIn("slow");
+    });
+
+    $("#qrimg").click(function() {
+        $("#qrimg").fadeOut("slow");
+    });
+            
 });
