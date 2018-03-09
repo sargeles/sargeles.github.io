@@ -176,7 +176,8 @@ var Layout = function () {
 $(document).ready(function() {
     Layout.init();
 
-    $("#qrimgtrigger").click(function() {
+    $("#qrimgtrigger").click(function(e) {
+        e.preventDefault();
         $("#qrimg").fadeIn("slow");
     });
 
